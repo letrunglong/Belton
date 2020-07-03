@@ -1,0 +1,47 @@
+.box{
+    width: 400px;
+    height: 400px;
+    position: relative;
+
+    font-size: 13px;
+    font-family: segoe ui light;
+    top:0; left: 0;
+    overflow: hidden;
+}
+.box img{
+    width: 400px;
+    top:0; left: 0;
+}
+.box .layer2{
+    position: absolute;
+    top:0; left: 0;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    opacity: 0;
+    transition: 0.8s;
+    
+    box-sizing: border-box;
+}
+.box:hover .layer2{
+    opacity: 0.8;
+    border: 20px solid rgb(43, 37, 37);
+
+}
+.box .layer3{
+    position: absolute;
+    top:25px; left: 25px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.box:hover .layer3{
+    opacity: 0.8;
+    transform: scale(0.9);
+    transition-delay: 0.11s;
+}
+.box .layer3 p{
+    font-style: italic;
+}
+.box:hover .layer3{
+    opacity: 1;
+}

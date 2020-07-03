@@ -1,0 +1,67 @@
+*{margin: 0; padding: 0;}
+.menu{
+    width: 100%;
+    overflow: hidden;
+    background-color: lightblue;
+    position: fixed;
+    transition: 0.4s;
+}
+.menutop{
+    height: 50px;
+}
+.menumid{
+    height: 70px;
+    display: flex;
+}
+.menumid .img{
+    height: 50px;
+}
+.menumid .menumidleft{
+    margin-left: 100px;
+    width: 30%;
+    position: relative;
+}
+.menumid .menumidright{
+    width: 60%;
+    line-height: 70px;
+}
+.menubottom{
+    height: 50px;
+}
+.danhmuc{
+    position: absolute;
+    top: 15px; left: 200px;
+    transform: translateY(200px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+}
+.content{
+    width: 200px;
+    margin: auto;
+}
+.menumid .img.logo{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.4s;
+}
+.handsin .menutop{
+    height: 0px;
+}
+.handsin .menubottom{
+    height: 0;
+}
+.handsin .danhmuc{
+    transform: translateY(00px);
+    opacity: 1;
+    visibility: visible;
+
+}
+.handsin .menubottom.visible{
+    height: 50px;
+    display: flex;
+}
+

@@ -1,0 +1,118 @@
+.main{
+    font-family: segoe ui;
+
+    width: 1920px;
+    height: 933px;
+    position: relative;
+    top: -130px; left: 0;
+}
+.main .banner{
+    width: 100%;
+    position: absolute;
+    top:-20px; left:-15px;
+}
+.main .top{    
+    position: absolute;
+    top: 10px; left: -20px;
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    justify-content: space-between;
+}
+.main .top .top_left{
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 4px;
+}
+.main .top .top_right{
+    width: 100px;
+    color: red;
+    font-size: 25px;
+    margin-right: -620px;
+}
+.main .mid{
+    position: absolute;
+    font-size: 60px;
+    top: 30px; left: 300px;
+    font-family: Montserrat,sans-serif;
+}
+.main .mid .white{
+    color: white;
+}
+.main .mid .red{
+    position: absolute;
+    top: 130px; left: -8px;
+}
+.main .mid .red{
+    color: #ff2c54;
+}
+hr{
+    margin-top: 150px;
+    margin-left: 5px;
+    color: #ff2c54;
+    width: 300px;
+}
+.main .mid h1.white,.red{
+    margin: 0;
+    margin-bottom:20px;
+}
+.main .bot{
+    position: absolute;
+    bottom: 300px; left: 300px;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    font-family: segoe ui light;
+}
+.bot_2{
+    position: absolute;
+    bottom: 60px; left: 300px;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    font-family: segoe ui light;
+}
+.bot_3{
+    position: absolute;
+    bottom: -180px; left: 300px;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    font-family: segoe ui light;
+}
+.main .bot .layer, .main .bot_2 .layer, .main .bot_3 .layer{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.4s;
+    margin-left: 0px;
+    width: 165px;
+    display: block;
+    padding-bottom: 5px;
+    width: 100%;
+
+}
+.main .bot .layer:hover, .main .bot_2 .layer:hover, .main .bot_3 .layer:hover{
+    margin-left: 20px;
+
+}
+
+.main .bot .layer_2,
+.main .bot_2 .layer_2,
+.main .bot_3 .layer_2
+{
+    margin-left: -10px;
+    margin-right: 5px;
+    opacity: 0;
+    font-size: 10px;
+
+}
+.layer:hover .layer_2{
+    opacity: 1;
+}
+.main .bot .layer_1,
+.main .bot_2 .layer_1,
+.main .bot_3 .layer_1
+{
+    display: inline;
+}

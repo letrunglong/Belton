@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0;}
+html, body{
+    width: 100%;
+}
+.menu{width: 100%;
+margin: auto;
+padding: 40px;
+background-color: rgb(204, 204, 204);
+font-size: 30px;
+position: fixed;
+color: white;
+transition: 0.2s;
+z-index: 2;}
+.menu .container{width: 100%;}
+.menu .container .row{display: flex;}
+.menu .container .row a{
+    color: gray;
+    padding: 0 40px;
+    font-weight: normal;
+    transition: 0.4s;
+    font-size: 28px;
+}
+.right a:active,
+.right a:visited{
+    text-decoration: none;
+}
+.menu .container .row .left{width: 70%;
+color: Black;
+font-weight: 700;
+font-size: 35px;}
+.menu .container .row .right{width: 20%;}
+
+div.menu.scroll300{
+    padding: 10px;
+}

@@ -1,0 +1,256 @@
+*{padding: 0; width: 100%;
+margin: auto;}
+body{
+    overflow-x:hidden;
+}
+.belton{
+    width: 100%;
+    position: relative;
+}
+.belton .top{
+    height: 580px;
+    width: 100%;
+    background-image: url(https://www.belton.joomlastars.co.in/images/fullscreen15.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.belton .top .after{
+    position: absolute;
+    content: '';
+    height: 580px;
+    width: 100%;
+    top: 0; left: 0;
+    background-color: black;
+    opacity: 0.3;
+    box-sizing: border-box;
+}
+.belton .top a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+
+}
+.belton .top .topdiv1{
+    position: absolute;
+    top: 0; left: 0;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+}
+
+.belton .top .topdiv1 .top_left{
+    width: 10%;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 50px;
+    font-size: 25px;
+
+}
+.belton .top .topdiv1 .top_mid{
+    text-align: center;
+    font-size: 25px;
+    width: 80%;
+    margin-right: 50px;
+}
+.belton .top .topdiv1 .top_mid h2{
+    font-weight: 400;
+    font-style: normal;
+}
+.belton .top .topdiv1 .top_right{
+    width: 10%;
+    position: relative;
+    top: 0; left: 50px;
+   
+}
+.belton .top .topdiv1 .top_right a{
+    display: inline;
+    padding-left: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.belton .top .topdiv2{
+    position: absolute;
+    top: 280px; left: 400px;
+    color: white;
+    font-size: 24px;
+}
+.belton .top .topdiv2::after{
+    content: 'Check my new projects';
+    font-size: 17px;
+    font-family: sans-serif;
+}
+.belton .top .topdiv2 > h2{
+    font-weight: 900;
+}
+.belton .mid{
+    width: 100%;
+    background-color: white;
+}
+.belton .mid .mid_top{
+    display: flex;
+    width: 850px;
+    margin: auto;
+    height: 40px;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+.belton .mid .mid_top .a1{
+    text-decoration: none;
+    display: inline;
+    width: 100px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    line-height: 40px;
+    background-color: #dfdbdb;
+    
+}
+.belton .mid .mid_top .khac{
+    background-color: rgb(43, 36, 36);
+    color: white;
+}
+.belton .mid .mid_top .metmoi{
+    width: 150px;
+}
+.belton .mid .mid_center{width: 60%;
+    margin: auto;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;}
+.belton .mid .mid_center .bo{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+    
+}
+.belton .mid .mid_center .bo h2{
+}
+.belton .mid .mid_center .bo .layer1{width: 100%;
+transition: 0.4s;}
+.belton .mid .mid_center .bo .afterr{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    opacity: 0;
+    transition: 0.4s;
+
+}
+.belton .mid .mid_center .bo:hover .afterr{
+    opacity: 0.6;
+}
+.belton .mid .mid_center .bo:hover .layer1{
+    transform:scale(1.1);
+}
+.belton .mid .mid_center .bo .layer2{
+    position: absolute;
+    bottom: 0; left: 20px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+.belton .mid .mid_center .bo .layer2::after{
+    content: 'Strategy & Insights';
+    text-transform: lowercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition:0.4s;
+}
+.belton .mid .mid_center .bo:hover .layer2::after{
+    opacity: 1;
+    visibility:visible;
+    transition-delay: 0.3s;
+
+}
+.belton .mid .mid_center .bo:hover .layer2{
+    bottom: 150px;
+    opacity: 1;
+    visibility: visible;
+}
+.belton .mid .mid_bottom{
+    display: flex;
+    width: 160px;
+    margin: auto;
+    text-align: center;
+    height: 40px;
+    border: 1px solid rgb(201, 191, 191);
+    border-radius: 5px;
+
+}
+.belton .mid .mid_bottom a{
+    width: 40px;
+    font-weight: 300;
+    color: black;
+    line-height: 40px;
+
+    text-decoration: none;
+    transition: 0.4s;
+}
+.belton .mid .mid_bottom ._1{
+    background-color: #007bff;
+}
+.belton .mid .mid_bottom ._1,
+.belton .mid .mid_bottom ._2,
+.belton .mid .mid_bottom ._3{
+    border-right: 1px solid rgb(201, 191, 191);
+}
+.belton .mid .mid_bottom a:hover{
+    background-color: rgb(184, 176, 160);
+}
+.belton .bot{
+    width: 100%;
+    height: 117px;
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+}
+.belton .bot .bg{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 117px;
+    background-color: #171717;
+}
+.belton .bot .bot_left{
+    position: absolute;
+    top: 40%; left: 20%;
+    font-size: 13px;
+    color: white;
+}
+.belton .bot .bot_left a{
+    text-decoration: none;
+    color: gray;
+}
+.belton .bot .bot_right{
+    position: absolute;
+    color: white;
+    top: 40%; left: 70%;
+    font-size: 14px;
+}
+.belton .bot p{
+    display: inline;
+}
+.tim {
+    color: yellowgreen;
+}

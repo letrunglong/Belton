@@ -1,0 +1,8 @@
+body,html{
+    height: 100%; margin:0;
+}
+.testfull{
+    background-image: url(https://cortex.qodeinteractive.com/wp-content/uploads/2017/06/h15-img-1a.jpg);
+    height: 100%;
+    background-size: cover;
+}

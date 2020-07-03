@@ -1,0 +1,61 @@
+*{margin: 0; padding: 0;}
+html, body{
+    height: 100%;
+}
+
+.khoito{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20%;
+    transition: 0.4s;
+}
+.khoito ._button{
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(89, 180, 89);
+    width: 100px;
+    height: 50px;
+    color: white;
+    display: block;
+    margin-left: auto;
+    cursor: pointer;
+    margin-right: auto;
+}
+.khoito .menu-left{
+    width: 300px;
+    background-color: rgb(89, 180, 89);
+    height: 100%;
+    font-size: 14px;
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 2;
+    transition: cubic-bezier(1,-0.51,.83,.67) 0.4s;
+}
+.khoito .hidden{
+    transform: translateX(-300px);
+}
+.khoito .menu-left h3.display-3.text-xs-center{
+    font-size: 35px;
+    color: white;
+    padding: 20px;
+}
+.khoito .menu-left .list-group{
+    background-color: rgb(89, 180, 89);
+}
+.khoito .den{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.315);
+    transition: 0.4s;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+}
+.khoito ._0den{
+    opacity:1; visibility: visible;
+}

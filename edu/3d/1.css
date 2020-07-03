@@ -1,0 +1,97 @@
+*{margin: 0; padding: 0;}
+
+.bo{
+    width: 200px;
+    height: 200px;
+    perspective: 800px;
+    margin: auto;
+    margin-top: 200px;
+}
+.bo .quay{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.bo .quay div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+._1{transform:translateZ(100px);}
+._2{transform:rotateY(90deg) translateZ(-100px);}
+._3{transform:rotateY(90deg) translateZ(100px);}
+._4{transform:rotateX(90deg) translateZ(100px);}
+._5{transform:rotateX(90deg) translateZ(-100px);}
+._6{transform:translateZ(-100px);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bo{
+    width: 500px;
+    height: 500px;
+    perspective: 800px;
+    margin: auto;
+    margin-top: 300px;
+}
+.bo .quay{
+    position: relative;
+    transform-style: preserve-3d;
+    width: 500px;
+    height: 500px;
+}
+.bo .quay div{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0;left: 0;
+    
+    color: white;
+    line-height: 500px;
+    text-align: center;
+    font-size: 50px;
+}
+._1{transform: translateZ(250px); background-color: rgba(0, 250, 0,0.4);}
+._2{ transform: rotateY(90deg) translateZ(250px); background-color: rgba(0, 0,0, 0.4);}
+._3{ transform: rotateY(90deg) translateZ(-250px); background-color: rgba(0, 0,0, 0.4);}
+._4{ transform: rotateX(90deg) translateZ(-250px); background-color: rgba(226, 0, 0, 0.4);}
+._5{ transform: rotateX(90deg) translateZ(250px); background-color: rgba(226, 0,0, 0.4);}
+._6{transform: translateZ(-250px); background-color: rgba(0, 250, 0,0.4);} */

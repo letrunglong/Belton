@@ -1,0 +1,27 @@
+.menutren{
+    background-color: #2fa1b3;
+    height: 30px;
+    width: 100%;
+}
+.menu{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    list-style: none;
+}
+.menu li {
+    display: inline;
+}
+.menu a{
+    text-decoration: none;
+    font-family: segoe ui light;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    display:inline-block;
+}
+.menu a:hover{
+    background-color: #127281;
+    transition: 0.4s;
+}

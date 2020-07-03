@@ -1,0 +1,22 @@
+
+a{
+    text-decoration: none;
+    position: relative;
+}
+a:after{
+    position: absolute;
+    top: 17px; left:0;
+    content: '';
+    height: 2px;
+    width: 00%;
+    border: 1px solid yellowgreen;
+    opacity: 0;
+    box-sizing: border-box;
+    display: block;
+    transition: 0.4s;
+}
+a:hover:after{
+
+    width: 100%;
+    opacity: 1;
+}

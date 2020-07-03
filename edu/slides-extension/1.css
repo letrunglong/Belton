@@ -1,0 +1,39 @@
+*{margin: 0; padding: 0;}
+html,body,.wrapper,.slides, ul, .bgimage{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{position: relative;}
+.wrapper .slides{position: absolute;
+width: 100%;}
+
+.wrapper .slides ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.wrapper .slides ul .bgimage{width: 100%;height: 100%; position: absolute; background-size: cover;}
+.wrapper .slides ul .bgimage:nth-child(1){z-index: 1;}
+.wrapper .slides img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.wrapper .buttons{
+    position: absolute;
+    top: 80%;left: 50%;    transform: translateX(-50%);
+    font-size: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+    color: gray;
+    z-index: 2;
+}.wrapper .buttons div{
+    cursor: pointer;
+    width: 10%;
+}.wrapper .buttons div:hover{
+    color: white;
+    transition: 0.4s;
+}
+ 

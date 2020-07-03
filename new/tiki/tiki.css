@@ -1,0 +1,63 @@
+.banner{
+    width: 1240px;
+    height: 540px;
+    display: flex;
+    margin: auto;
+    background-color: cornsilk;
+}
+.banner .cot1{
+    width: 245px;
+}
+.banner .cot1 .box{
+    margin: auto;
+    display: flex;
+    height: 33.75px;
+}
+.banner .cot1 a{
+    text-decoration: none;
+    color: black;
+}
+.banner .cot1 .box:hover{
+    background-color: rgba(98, 98, 216, 0.795);
+    transition: 0.4s;
+}
+.banner .cot1 .left1{
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.banner .cot1 .left2{
+    width: 215px;
+    margin-top: 3px;
+}
+
+.banner .cot2{
+    width: 585px;
+}
+.banner .cot2 .top{
+    height: 359px;
+}
+.banner .cot2 .top .carousel-indicators{
+    visibility: hidden;
+}
+.banner .cot2 .bot{
+    display: flex;
+    height: 173px;
+}
+.banner .cot2 .bot ._1per2{
+    width: 50%;
+}
+
+
+.banner .cot3{
+    width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner .cot3 ._1nua{
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}

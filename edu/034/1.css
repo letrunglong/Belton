@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0;}
+#but2{
+    transition: 0.4s;
+}
+
+._1click{
+    animation: haiquayxe 1s forwards;
+}
+._2click{
+    animation: hailuixe 1s forwards;
+}
+@-webkit-keyframes haiquayxe {
+    0%{transform: translateX(000px);opacity: 1;}
+    50%{transform: translateX(300px);opacity: 1;}
+    100%{transform: translateX(500px);opacity: 0;}
+}
+@-webkit-keyframes hailuixe {
+    0%{transform: translateX(500px);opacity: 0;}
+    50%{transform: translateX(300px);opacity: 1;}
+    100%{transform: translateX(000px);opacity: 1;}
+}

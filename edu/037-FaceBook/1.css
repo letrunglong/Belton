@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: #4267b2;
+    color: black;
+    font-size: 20px;
+}
+.oneChild{
+    line-height: 80px;
+    position: relative;
+    float: right;
+}
+.tamgiac{
+    font-size: 30px;
+    width: 50px;
+    transition: 0.4s;
+    margin-right: 70px;
+    cursor: pointer;
+
+}
+.noidung{
+    position: absolute;
+    top: 80px;right:100px;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+}
+.nav .oneChild .noidung::after{
+    content: '';
+    height: 0; width: 0;
+    border: 10px #4267b2 solid;
+    border-bottom-color: white;
+    position: absolute;
+    top: -19px; left: 169px;
+}
+
+.trang{
+    color: white;
+}
+.hienxe{
+    opacity: 1;
+    visibility: visible;
+}
+.doimau {
+    color: red;
+}

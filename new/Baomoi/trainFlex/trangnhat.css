@@ -1,0 +1,84 @@
+._13cot{
+    width: 1000px;
+    font-family: segoe ui light;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.el{
+    width: 76px;
+}
+.el img{
+    width: 60px;
+    height: 60px;
+}
+.content{
+    text-decoration: none;
+}
+.content:hover{
+    color: blue;
+    transition: 0.4s;
+}
+.el img:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.of13{
+    padding-left: 10px;
+    font-family: segoe ui light;
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
+
+.box-top{
+    display: flex;
+    width: 1000px;
+    font-size: 15px;
+    font-family: segoe ui light;
+}
+.top h3{
+    font-size: 20px;
+    font-family: segoe ui light;
+    color: blueviolet;
+}
+.e1{
+    width: 100px;
+    text-decoration: none;
+}
+.e1:hover{
+    color: blue;
+}
+
+.box-bot{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-small{
+    width: 200px;
+    font-family: segoe ui light;
+    display: flex;
+    justify-content:space-between;
+}
+.left{
+    width: 30px;
+}
+.left img{
+    width: 30px;
+    height: 30px;
+}
+.right{
+    width: 165px;
+    
+}
+.right a{
+    text-decoration: none;
+    color: darkblue;
+}
+.right a:hover{
+    text-decoration: darkcyan;
+    color: red;
+}

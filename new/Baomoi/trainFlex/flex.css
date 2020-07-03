@@ -1,0 +1,34 @@
+.flex{
+    display: flex;
+    width: 415px;
+    margin: auto;
+}
+.flex-left{
+    width: 13%;
+    margin-right: 10px;
+
+}
+.flex:hover{
+    color: dodgerblue;
+}
+.flex-right{
+    width: 80%;
+}
+.flex-right a:hover{
+    color: dodgerblue;
+}
+.a1{
+    font-family: "segoe ui light";
+}
+.a2{
+    display: inline;
+    font-family: "Segoe UI";
+    text-decoration: none;
+    margin-left: 10px;
+    color:darkgrey;
+}
+img{
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 5px;
+}

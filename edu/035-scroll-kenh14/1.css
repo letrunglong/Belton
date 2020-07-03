@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0;}
+.banner{
+    background: url(banner.png) no-repeat center;
+    height: 95px;
+    width: 100%;
+    background-size: cover;
+}
+.menu1{
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    line-height: 40px;
+    background-color: #a70e1a;
+    z-index: 2;
+    transition: 0.4s;
+}
+.menu1 .container{
+    display: flex;
+    padding-left: 20px;
+}
+.menu1 .container li{
+    width: 10%;
+}
+.menu1 .container a{
+    color: white;
+    font-family: segoe ui light;
+    font-size: 18px;
+}
+
+.noidung{display: flex;
+position: relative;}
+.noidung .left{
+    margin-top: 50px;
+}
+.noidung .left .left-top{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 20%;
+
+}
+.noidung .left .left-top .left-top-1{
+    width: 50%;
+}
+.noidung .left .left-top .left-top-2{
+    width: 30%;
+}
+.noidung .left .left-top img{
+    width: 100%;
+}
+.noidung .left .left-top .dich{
+    color: black;
+}
+.noidung .left .left-top .dich:hover,
+.noidung .left .left-top .dich:visited
+{
+    text-decoration: none;
+    color: black;
+}
+.noidung .left .left-bot{
+    display: flex;
+    width: 80%;
+    margin-left: 24%;}
+.noidung .left .left-bot .left-bot-1{width: 30%;}
+.noidung .left .left-bot .left-bot-2{width: 30%;}
+.noidung .left .left-bot .left-bot-3{width: 30%;}
+.noidung .left .left-bot img{
+    width: 80%;
+}
+.noidung .left .left-bot a:hover,
+.noidung .left .left-bot a:visited{
+    text-decoration: none;
+    color: black;
+}
+.right{margin-top: 50px;
+}
+.noidung .right img{
+    width: 100%;    
+}
+.spam{
+    width: 300px;
+    margin: auto;
+    margin-top: 70px;
+}
+.spam::before{
+    content: '';
+    position: absolute;
+    top: 1010px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border: 1px solid orangered;
+}
+.menu1.menufix{
+    position: fixed;
+    top: 0;
+    background-color: black;
+
+}.col-sm-4.rightfix{
+    position: fixed;
+    top: 0;
+    left: 65%;
+
+}
+
+.left-bot-3{
+    opacity: 0;
+}
+.left-bot-3.animatescroll{
+    animation:dilen 1s ease forwards;
+}
+@-webkit-keyframes dilen{
+    from{transform: translateY(100px); opacity: 0;}
+    to  {transform: translateY(0);opacity: 1;}
+}
